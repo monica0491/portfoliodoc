@@ -1,34 +1,63 @@
 
 nav{
     float: right;
-    margin-top: 30px;
+    margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    border-color: #777777;
+    padding: 40px;
+}
+
+body{
+    background: url(../images/memphis-mini.png);
+    padding-top: 30px;
 }
 
 .header-container{
-    border-color: red;
     background-color: #ffffff;
     color: #ffffff;
     text-align: center;
-    margin-left: 201px;
-    margin-right: 201px;
-    margin-top: 0;
-    margin-bottom: 200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px #666666 solid;
+}
+
+.header-content{
+    /* background-color: green; */
+    width: 960px;
+    margin: 0 auto;
+
 }
 
 .header-container-name{
     float: left;
     background-color: teal;
-    padding: 5px;
+    padding: 0px 20px 0px;
+    overflow: hidden;  
 }
-section {
+
+.anchors-box{
+    padding-top: 30px;
+    border: red solid;
+    margin: 0;
+    height: 30px;
+}
+
+section{
     clear: both;
-    background: url(../images/memphis-mini.png);
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     text-align: justify;
-    background-position: relative;
+    background-position: fixed;
+    height: auto;
 }
 
 .title{
@@ -45,23 +74,32 @@ a{
     margin-right: 20px;
     color: #777777;
     text-decoration: none;
+    float: right;
 }
 
 .about-image{
-    width: 100px;
-    height: 100px;
-    position: relative;
+    width: 250px;
+    height: 225px;
+    text-align: match-parent;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .content{
     background-color: white;
     width: 960px;
-    margin: 400px auto;
+    margin: 100px auto;
     border-style: solid;
     border-width: 1px;
     border-color: #dddddd;
-    padding: 30px;
+    padding: 20px;
     position: static;
+    overflow: auto;
+}
+
+#description{
+    color: #777777;
 }
 
 .footer{
@@ -70,10 +108,15 @@ a{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 60px;
-    text-align: center;
+    height: 50px;
     color: #dddddd;
     font-size: 15px;
-    border-top: 5px teal;
+    border: 10px solid #777777;
+    border-top-color: teal;
 }
 
+.copyright{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
